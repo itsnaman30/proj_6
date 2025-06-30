@@ -1,0 +1,27 @@
+<!-- Inside contact.html body -->
+<div class="container my-5">
+  <h1 class="text-center mb-4">Contact Us</h1>
+  <form class="w-75 mx-auto" id="contactForm">
+    <div class="mb-3">
+      <label class="form-label">Your Name</label>
+      <input type="text" class="form-control" placeholder="Enter your name" required />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Email address</label>
+      <input type="email" class="form-control" placeholder="name@example.com" required />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Message</label>
+      <textarea class="form-control" rows="4" placeholder="Write your message..." required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+
+  <!-- Success Message (hidden by default) -->
+  <div class="alert alert-success alert-dismissible fade show mt-4 d-none" id="successAlert" role="alert">
+    Thank you! Your message has been sent.
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+  </div>
+</div>
+
+
